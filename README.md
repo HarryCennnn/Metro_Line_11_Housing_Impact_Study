@@ -1,2 +1,17 @@
-# Metro_Line_11_Housing_Impact_Study
-An econometric analysis evaluating the impact of Metro Line 11 on housing prices along the Shanghai–Kunshan corridor using distance-based regression. 
+# Metro Line 11 Housing Impact Study
+
+## Overview
+This econometrics project evaluates how the opening of Metro Line 11 affects housing prices along the corridor between Shanghai and Kunshan, using distance-based OLS regression.
+
+## Features
+- Housing transaction data cleaning and formatting
+- Distance-based treatment and control group construction
+- OLS regression with interaction terms (`Post × Distance`)
+
+## Technologies
+- Python, Statsmodels, Pandas, Matplotlib
+
+## Usage
+1. Clean data with `preprocess.py`
+2. Run regression models with `ols_analysis.py`
+3. Visualize results with `plot_results.py`
